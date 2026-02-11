@@ -1,5 +1,4 @@
-# Third-party libraries
-lib/CRCpp/
+lib/
 
 # Build artifacts
 build/
