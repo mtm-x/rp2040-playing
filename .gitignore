@@ -1,3 +1,11 @@
-CRCpp/ 
-uf2/
-*.out
+# Third-party libraries
+lib/CRCpp/
+
+# Build artifacts
+build/
+
+# Editor / OS junk
+*.swp
+*.swo
+*~
+.vscode/
