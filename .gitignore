@@ -1,9 +1,6 @@
 lib/
-
-# Build artifacts
+tools/
 build/
-
-# Editor / OS junk
 *.swp
 *.swo
 *~
