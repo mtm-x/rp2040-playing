@@ -39,13 +39,11 @@ __attribute__((section(".boot2"))) void main(void){
     SIO_GPIO25_OE_SET = (1 << 25); /* Removed the | for atomic operation which means doing the shift in a single instruction */
     
     while(1) {
-        for (uint32_t i = 0; i < 100000; ++i) /*Delay*/    {
+        for (uint32_t i = 0; i < 100000; ++i) /*Delay*/    
             /*You have to remember what state the LED is currently in.
              * XOR just inverts whatever the number is 
              */
-
-            SIO_GPIO25_OUT_XOR = (1 << 25);
-        }
-        
+        {}
+        SIO_GPIO25_OUT_XOR = (1 << 25);
     }
 }
